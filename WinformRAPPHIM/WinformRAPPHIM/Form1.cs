@@ -25,6 +25,8 @@ namespace WinformRAPPHIM
         public Form1()
         {
             InitializeComponent();
+            var uc = new FoodUserForm();   // nếu đây là UserControl
+            this.Controls.Add(uc);
         }
 
         private void btnMoketnoi_Click(object sender, EventArgs e)
